@@ -803,7 +803,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.92600006, y: 0.5398519}
   m_AnchorMax: {x: 0.9817708, y: 0.61670375}
-  m_AnchoredPosition: {x: -2.4099731, y: 44.199997}
+  m_AnchoredPosition: {x: -2.409912, y: 44.200012}
   m_SizeDelta: {x: 2.9888916, y: 1.6008606}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &162391436
@@ -990,6 +990,7 @@ MonoBehaviour:
   _weapons:
   - {fileID: 2854932777601003908, guid: 299e578c2e1d65940a77feffda9e06e2, type: 3}
   - {fileID: 2854932777601003908, guid: c9147517069732e4b9c503ad8abd6d9c, type: 3}
+  - {fileID: 8801892260150361231, guid: 52ea1d7ff8f474046b5a1fe25d18907d, type: 3}
   _player: {fileID: 877819406}
   _template: {fileID: 8751764206242001139, guid: 39f06bc6ff40d224e886842c00d48846,
     type: 3}
@@ -1030,7 +1031,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.92600006, y: 0.34262967}
   m_AnchorMax: {x: 0.9817708, y: 0.42211115}
-  m_AnchoredPosition: {x: -1.9099731, y: 44.899994}
+  m_AnchoredPosition: {x: -1.9099121, y: 44.899994}
   m_SizeDelta: {x: 1.9871826, y: -1.3991394}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &191350418
@@ -2142,7 +2143,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.92600006, y: 0.8724075}
   m_AnchorMax: {x: 0.9817708, y: 0.96318525}
-  m_AnchoredPosition: {x: -1, y: -0.9999695}
+  m_AnchoredPosition: {x: -1, y: -1}
   m_SizeDelta: {x: 1.6563721, y: 2.817749}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &751610367
@@ -6499,9 +6500,13 @@ MonoBehaviour:
     Count: 5
   - Template:
     - {fileID: 822774754475069062, guid: fe4cb55f106d1da46b4d2f4fd79305c2, type: 3}
-    - {fileID: 1210351470138957214, guid: 587221b0a3fed714499c4dda552778e1, type: 3}
-    Delay: 0.8
+    Delay: 0.5
     Count: 10
+  - Template:
+    - {fileID: 822774754475069062, guid: fe4cb55f106d1da46b4d2f4fd79305c2, type: 3}
+    - {fileID: 1210351470138957214, guid: 587221b0a3fed714499c4dda552778e1, type: 3}
+    Delay: 0.4
+    Count: 20
   _spawnPoint: {fileID: 2119393036}
   _player: {fileID: 877819406}
 --- !u!4 &2119393036
